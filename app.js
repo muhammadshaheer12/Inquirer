@@ -4,4 +4,4 @@ let answer = await inquirer.prompt([{
         type: "string",
         message: "what is your name? ",
     }]);
-console.log("welcome! " + answer);
+console.log("welcome! " + answer.username);
