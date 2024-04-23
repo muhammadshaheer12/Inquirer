@@ -1,4 +1,4 @@
-import inquirer from "inquirer"
+import inquirer from "inquirer";
 let answer = await inquirer.prompt([{
  name: "username",
  type: "string",
